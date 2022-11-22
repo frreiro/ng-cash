@@ -1,0 +1,6 @@
+[submodule "ng-cash-frontend"]
+	path = ng-cash-frontend
+	url = git@github.com:frreiro/ng-cash-frontend.git
+[submodule "ng-cash-backend"]
+	path = ng-cash-backend
+	url = git@github.com:frreiro/ng-cash-backend.git
