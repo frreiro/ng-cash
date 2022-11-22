@@ -39,7 +39,7 @@ $ yarn run docker:start
 ## 🔎 P.S.
 
 Both repositories are independent, this repository are made to be a showase, where you can start the entire aplication easily using one docker command.
-But if you want more details about frontend or backend check the following repositories.
+But if you want more details about frontend or backend and/or run a stack apart, check the following repositories.
 
  - [Backend](https://github.com/frreiro/ng-cash-backend)
  - [Frontend](https://github.com/frreiro/ng-cash-frontend)
