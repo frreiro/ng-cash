@@ -1,0 +1,19 @@
+{
+  "name": "NG_CASH",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docker:start": "docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frreiro/ng-cash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frreiro/ng-cash/issues"
+  },
+  "homepage": "https://github.com/frreiro/ng-cash#readme"
+}
