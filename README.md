@@ -25,7 +25,14 @@ $ git clone git@github.com:frreiro/ng-cash.git
 
 ### Docker mode
 
-Docker is configured to use your machine localhost as the container localhost. This option was choosed because the backend is not deployed yet, so this way was the pratice way to solve networking issues. Knowing that, to run docker just use those following command:
+This repository use the two independent repositories and they need to be initialized with two commands: 
+
+```bash
+$ git submodule init
+#and
+$ git submodule update
+```
+Docker is configured to use your machine localhost as the container localhost. This option was choosed because the backend is not deployed yet, so this way was the pratice way to solve networking issues. Knowing that, just use those following command to start the application:
 
 ```bash
 $ npm run docker:start
@@ -35,6 +42,13 @@ $ yarn run docker:start
 
 - Open `http://localhost:3000` in your brownser and see the magic appear
 
+
+In case you want to stop the aplication run:
+```bash
+$ npm run docker:down
+#or
+$ yarn run docker:down
+```
 
 ## 🔎 P.S.
 
